@@ -292,6 +292,7 @@
              },
              toggleDetailsinfo() {
                  this.aboutmevisible = !this.aboutmevisible;
+                 
              }
          }
       };

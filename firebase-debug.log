@@ -1,0 +1,64 @@
+[debug] [2021-11-25T06:26:45.691Z] ----------------------------------------------------------------------
+[debug] [2021-11-25T06:26:45.696Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-25T06:26:45.697Z] CLI Version:   9.23.0
+[debug] [2021-11-25T06:26:45.697Z] Platform:      win32
+[debug] [2021-11-25T06:26:45.697Z] Node Version:  v14.17.6
+[debug] [2021-11-25T06:26:45.700Z] Time:          Thu Nov 25 2021 14:26:45 GMT+0800 (Philippine Standard Time)
+[debug] [2021-11-25T06:26:45.701Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-25T06:26:45.722Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-25T06:26:45.722Z] > authorizing via signed-in user (andrianelemento41@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\USER\final-project-personal-portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-11-25T06:27:03.880Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-11-25T06:27:05.061Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-11-25T06:27:05.061Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project myportfolio-efbee (Myportfolio) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at C:\Users\USER\final-project-personal-portfolio 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=538373355&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-11-25T06:33:19.933Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"8851d4df006e329f6c7f","redirect_uri":"http://localhost:9005","state":"538373355"}
+[debug] [2021-11-25T06:33:20.747Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Thu, 25 Nov 2021 06:33:29 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"d4845cab8aee52be504c1fefc000a689\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src render.githubusercontent.com viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"2F7E:3181:358824:3DB2BA:619F2E38"}
+[debug] [2021-11-25T06:33:20.770Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-11-25T06:33:21.529Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-11-25T06:33:21.530Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"lordelements","id":91509296,"node_id":"U_kgDOBXRSMA","avatar_url":"https://avatars.githubusercontent.com/u/91509296?v=4","gravatar_id":"","url":"https://api.github.com/users/lordelements","html_url":"https://github.com/lordelements","followers_url":"https://api.github.com/users/lordelements/followers","following_url":"https://api.github.com/users/lordelements/following{/other_user}","gists_url":"https://api.github.com/users/lordelements/gists{/gist_id}","starred_url":"https://api.github.com/users/lordelements/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lordelements/subscriptions","organizations_url":"https://api.github.com/users/lordelements/orgs","repos_url":"https://api.github.com/users/lordelements/repos","events_url":"https://api.github.com/users/lordelements/events{/privacy}","received_events_url":"https://api.github.com/users/lordelements/received_events","type":"User","site_admin":false,"name":"AndrianElemento","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":"I 'am 3rd year college I.T student in SSU in bulan campus. let me tell you something about my life,I graduated in Biton National High School batch 2013-2014.","twitter_username":null,"public_repos":12,"public_gists":0,"followers":1,"following":0,"created_at":"2021-09-28T00:50:15Z","updated_at":"2021-11-17T03:45:42Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":2034,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as lordelements 
+[info] 
+[debug] [2021-11-25T06:33:21.547Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-11-25T06:33:22.122Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-11-25T06:33:22.123Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-11-25T06:36:12.929Z] >>> [apiv2][query] GET https://api.github.com/repos/https://github.com/lordelements/lordelements.github.io.git/actions/secrets/public-key type=owner
+[debug] [2021-11-25T06:36:14.209Z] <<< [apiv2][status] GET https://api.github.com/repos/https://github.com/lordelements/lordelements.github.io.git/actions/secrets/public-key 404
+[debug] [2021-11-25T06:36:14.210Z] <<< [apiv2][body] GET https://api.github.com/repos/https://github.com/lordelements/lordelements.github.io.git/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-11-25T06:36:30.758Z] >>> [apiv2][query] GET https://api.github.com/repos/https://github.com/lordelements/lordelements.github.io.git/actions/secrets/public-key type=owner
+[debug] [2021-11-25T06:36:59.008Z] >>> [apiv2][query] GET https://api.github.com/repos/firebase deploy --only hosting:my-portfoliow/actions/secrets/public-key type=owner
+[debug] [2021-11-25T06:37:00.509Z] <<< [apiv2][status] GET https://api.github.com/repos/firebase deploy --only hosting:my-portfoliow/actions/secrets/public-key 404
+[debug] [2021-11-25T06:37:00.510Z] <<< [apiv2][body] GET https://api.github.com/repos/firebase deploy --only hosting:my-portfoliow/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-11-25T06:37:34.987Z] >>> [apiv2][query] GET https://api.github.com/repos/https://github.com/lordelements/lordelements.github.io/actions/secrets/public-key type=owner
+[debug] [2021-11-25T06:37:35.723Z] <<< [apiv2][status] GET https://api.github.com/repos/https://github.com/lordelements/lordelements.github.io/actions/secrets/public-key 404
+[debug] [2021-11-25T06:37:35.724Z] <<< [apiv2][body] GET https://api.github.com/repos/https://github.com/lordelements/lordelements.github.io/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
