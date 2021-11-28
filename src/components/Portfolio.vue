@@ -18,8 +18,8 @@
         <!-- Hero tagline & name -->
                     <div class="detail" v-if="detailsAreVisible">
                         <h1>Hello I'm Andrian <span>Elemento</span></h1>
-                        <p>Life is like proramming full of exploration and failure mistakes and error <br>
-                        but in every error theres always solution to solve the problems and make it better</p>
+                        <p><b>Life is like proramming full of exploration and failure mistakes and error <br>
+                        but in every error theres always solution to solve the problems and make it better</b></p>
                                 
                         <br><button><a v-bind:href="ResumeLink" class="download-btn">Download Cv</a></button>
                     </div>
