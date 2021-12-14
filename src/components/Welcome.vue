@@ -41,6 +41,7 @@ export default {
 </script>
 
 <style scoped>
+   
    h1{
        font-size: 35px;
        font-style: inherit;

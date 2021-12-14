@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+  background-image: ("C:/Users/USER/final-project-personal-portfolio/public/img/background.jpeg");
+  background-repeat: no-repeat;
+  display: cover;
 }.logo{
     float: right;
     margin: 20px 90px;
